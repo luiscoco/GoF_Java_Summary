@@ -10,7 +10,9 @@ They represent best practices used by experienced object-oriented software devel
 
 Understanding these patterns can help you create more flexible, reusable, and maintainable code. 
 
-In this module, we will introduce the concept of design patterns, explore the origins of these patterns, and understand their importance in software development.
+In this module, we will introduce the concept of design patterns, explore the origins of these patterns, 
+
+and understand their importance in software development.
 
 ### 1.2 Authors and Recommended Reading
 
