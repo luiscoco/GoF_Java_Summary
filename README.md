@@ -96,8 +96,6 @@ The Singleton pattern ensures a class has only one instance and provides a globa
 
 This pattern is useful when exactly one object is needed to coordinate actions across the system.
 
-Java Code Example:
-
 ```java
 public class Singleton {
     // Private static variable of the same class that is the only instance of the class.
