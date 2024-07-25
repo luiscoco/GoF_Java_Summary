@@ -1,65 +1,65 @@
 # GoF_Java_Summary
 
-## Module 1:
+## 1. Module 1
 
-Introduction
+### 1.1. Introduction
 
-Authors, Recommended reading
+### 1.2. Authors, Recommended reading
 
-OOP, UML
+### 1.3. OOP, UML
 
-Principles of object-oriented design
+### 1.4. Principles of object-oriented design
 
-SOLID
+### 1.5. SOLID
  
-## Module 2:
+## 2. Module 2:
 
-Singleton
+### 2.1. Singleton
 
-Prototype
+### 2.2. Prototype
 
-Factory Method
+### 2.3. Factory Method
 
-Abstract Factory
+### 2.4. Abstract Factory
 
-Builder
+### 2.5. Builder
  
-## Module 3
+## 3. Module 3
 
-Adapter
+### 3.1. Adapter
 
-Bridge
+### 3.2. Bridge
 
-Composite
+### 3.3. Composite
 
-Decorator
+### 3.4. Decorator
 
-Façade
+### 3.5. Façade
 
-Flyweight 
+### 3.6. Flyweight 
 
-Proxy
+### 3.7. Proxy
  
-## Module 4
+## 4. Module 4
 
-Interpreter
+### 4.1. Interpreter
 
-Iterator
+### 4.2. Iterator
 
-Visitor
+### 4.3. Visitor
 
-Observer
+### 4.4. Observer
 
-Mediator
+### 4.5. Mediator
 
-Memento
+### 4.6. Memento
 
-Command
+### 4.7. Command
 
-Chain of Responsibility
+### 4.8. Chain of Responsibility
+ 
+### 4.9. Template method
 
-Template method
+### 4.10. Strategy
 
-Strategy
-
-State
+### 4.11. State
