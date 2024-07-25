@@ -70,7 +70,9 @@ Some key object-oriented design principles include:
 
 The **SOLID principles** are a set of five design principles intended to make software designs more understandable, flexible, and maintainable.
 
-These principles were introduced by Robert C. Martin and are considered the cornerstone of object-oriented design. The SOLID principles include:
+These principles were introduced by Robert C. Martin and are considered the cornerstone of **object-oriented** design.
+
+The **SOLID principles** include:
 
 **Single Responsibility Principle (SRP)**: A class should have only one reason to change, meaning it should have only one job or responsibility.
 
