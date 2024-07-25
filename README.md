@@ -88,7 +88,7 @@ Both should depend on abstractions. Abstractions should not depend on details. D
 
 By adhering to these principles, developers can create software that is easier to maintain, scale, and refactor.
  
-## 2. Module 2: Creational Design Patterns
+## 2. Module 2: Creational Patterns
 
 ### 2.1 Singleton
 
