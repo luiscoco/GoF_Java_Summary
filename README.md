@@ -34,7 +34,9 @@ For a deeper understanding of design patterns, it is recommended to read the fol
 
 ### 1.3 Object-Oriented Programming (OOP) and UML
 
-**Object-Oriented Programming (OOP)** is a programming paradigm based on the concept of objects, which can contain data and code: data in the form of fields (often known as attributes or properties), 
+**Object-Oriented Programming (OOP)** is a programming paradigm based on the concept of objects, which can contain data and code: 
+
+data in the form of fields (often known as attributes or properties), 
 
 and code in the form of procedures (often known as methods). 
 
