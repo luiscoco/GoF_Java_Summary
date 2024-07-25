@@ -4,7 +4,7 @@
 
 ### 1.1 Introduction
 
-Design patterns are typical solutions to commonly occurring problems in software design. 
+**Design patterns** are typical solutions to commonly occurring problems in software design. 
 
 They represent best practices used by experienced object-oriented software developers. 
 
@@ -14,8 +14,11 @@ In this module, we will introduce the concept of design patterns, explore the or
 
 ### 1.2 Authors and Recommended Reading
 
-The concept of design patterns in software engineering was popularized by the "Gang of Four" (GoF), consisting of Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides. Their book, "Design Patterns: 
-Elements of Reusable Object-Oriented Software," is a seminal work in the field. For a deeper understanding of design patterns, it is recommended to read the following:
+The concept of design patterns in software engineering was popularized by the "**Gang of Four" (GoF), consisting of Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides**.
+
+Their book, "**Design Patterns: Elements of Reusable Object-Oriented Software**" is a seminal work in the field. 
+
+For a deeper understanding of design patterns, it is recommended to read the following:
 
 "**Design Patterns**: Elements of Reusable Object-Oriented Software" by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides
 
@@ -27,7 +30,9 @@ Elements of Reusable Object-Oriented Software," is a seminal work in the field. 
 
 ### 1.3 Object-Oriented Programming (OOP) and UML
 
-**Object-Oriented Programming (OOP)** is a programming paradigm based on the concept of objects, which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods). 
+**Object-Oriented Programming (OOP)** is a programming paradigm based on the concept of objects, which can contain data and code: data in the form of fields (often known as attributes or properties), 
+
+and code in the form of procedures (often known as methods). 
 
 The key principles of OOP include encapsulation, inheritance, and polymorphism.
 
@@ -75,7 +80,9 @@ These principles were introduced by Robert C. Martin and are considered the corn
 
 **Interface Segregation Principle (ISP)**: Clients should not be forced to depend on interfaces they do not use. Instead of one large interface, multiple smaller interfaces are preferred.
 
-**Dependency Inversion Principle (DIP)**: High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
+**Dependency Inversion Principle (DIP)**: High-level modules should not depend on low-level modules. 
+
+Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
 
 By adhering to these principles, developers can create software that is easier to maintain, scale, and refactor.
  
