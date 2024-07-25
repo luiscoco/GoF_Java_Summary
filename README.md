@@ -88,17 +88,17 @@ Both should depend on abstractions. Abstractions should not depend on details. D
 
 By adhering to these principles, developers can create software that is easier to maintain, scale, and refactor.
  
-## 2. Module 2:
+## 2. Module 2: Creational Design Patterns
 
-Module 2: Creational Design Patterns
-2.1 Singleton
-Text:
-The Singleton pattern ensures a class has only one instance and provides a global point of access to it. This pattern is useful when exactly one object is needed to coordinate actions across the system.
+### 2.1 Singleton
+
+The Singleton pattern ensures a class has only one instance and provides a global point of access to it.
+
+This pattern is useful when exactly one object is needed to coordinate actions across the system.
 
 Java Code Example:
 
-java
-Copy code
+```java
 public class Singleton {
     // Private static variable of the same class that is the only instance of the class.
     private static Singleton instance;
@@ -118,7 +118,9 @@ public class Singleton {
         System.out.println("Hello World from Singleton!");
     }
 }
+```
 
+```java
 // Usage
 public class SingletonDemo {
     public static void main(String[] args) {
@@ -128,14 +130,17 @@ public class SingletonDemo {
         singleton.showMessage();
     }
 }
-2.2 Prototype
-Text:
-The Prototype pattern is used to create a duplicate object while keeping performance in mind. This pattern involves implementing a prototype interface that tells to create a clone of the current object. The Prototype pattern is used when the cost of creating a new object is expensive or complex.
+```
 
-Java Code Example:
+### 2.2 Prototype
 
-java
-Copy code
+The Prototype pattern is used to create a duplicate object while keeping performance in mind.
+
+This pattern involves implementing a prototype interface that tells to create a clone of the current object.
+
+The Prototype pattern is used when the cost of creating a new object is expensive or complex.
+
+```java
 import java.util.Hashtable;
 
 abstract class Shape implements Cloneable {
@@ -192,7 +197,9 @@ class ShapeCache {
         shapeMap.put(rectangle.getId(), rectangle);
     }
 }
+```
 
+```java
 // Usage
 public class PrototypePatternDemo {
     public static void main(String[] args) {
@@ -201,14 +208,15 @@ public class PrototypePatternDemo {
         System.out.println("Shape : " + clonedShape.getType());
     }
 }
-2.3 Factory Method
-Text:
-The Factory Method pattern provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created. This pattern delegates the responsibility of object instantiation to the subclasses.
+```
 
-Java Code Example:
+### 2.3 Factory Method
 
-java
-Copy code
+The Factory Method pattern provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created
+
+This pattern delegates the responsibility of object instantiation to the subclasses.
+
+```java
 abstract class Shape {
     abstract void draw();
 }
@@ -250,7 +258,9 @@ class CircleFactory extends ShapeFactory {
         return new Circle();
     }
 }
+```
 
+```java
 // Usage
 public class FactoryMethodPatternDemo {
     public static void main(String[] args) {
@@ -261,14 +271,15 @@ public class FactoryMethodPatternDemo {
         shapeFactory.drawShape();
     }
 }
-2.4 Abstract Factory
-Text:
-The Abstract Factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes. This pattern is useful when the system needs to be independent of how its objects are created.
+```
 
-Java Code Example:
+### 2.4 Abstract Factory
 
-java
-Copy code
+The Abstract Factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+This pattern is useful when the system needs to be independent of how its objects are created.
+
+```java
 interface Shape {
     void draw();
 }
@@ -354,7 +365,9 @@ class FactoryProducer {
         return null;
     }
 }
+```
 
+```java
 // Usage
 public class AbstractFactoryPatternDemo {
     public static void main(String[] args) {
@@ -373,14 +386,17 @@ public class AbstractFactoryPatternDemo {
         color2.fill();
     }
 }
-2.5 Builder
-Text:
-The Builder pattern is used to construct a complex object step by step. It allows you to create different representations of an object using the same construction process. This pattern is useful when the creation process involves several steps or when there are many configurations for an object.
+```
 
-Java Code Example:
+### 2.5 Builder
 
-java
-Copy code
+The Builder pattern is used to construct a complex object step by step
+
+It allows you to create different representations of an object using the same construction process
+
+This pattern is useful when the creation process involves several steps or when there are many configurations for an object.
+
+```java
 class Meal {
     private String drink;
     private String mainCourse;
@@ -470,7 +486,9 @@ class MealDirector {
         return mealBuilder.getMeal();
     }
 }
+```
 
+```java
 // Usage
 public class BuilderPatternDemo {
     public static void main(String[] args) {
@@ -485,7 +503,9 @@ public class BuilderPatternDemo {
         System.out.println("Japanese Meal: " + japaneseMeal);
     }
 }
-These examples demonstrate the core concepts and applications of the Singleton, Prototype, Factory Method
+```
+
+These examples demonstrate the core concepts and applications of the **Singleton**, **Prototype**, **Factory** Method
  
 ## 3. Module 3
 
