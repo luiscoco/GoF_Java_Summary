@@ -16,7 +16,9 @@ and understand their importance in software development.
 
 ### 1.2 Authors and Recommended Reading
 
-The concept of design patterns in software engineering was popularized by the "**Gang of Four" (GoF), consisting of Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides**.
+The concept of design patterns in software engineering was popularized by the "**Gang of Four" (GoF)**, consisting of Erich Gamma, 
+
+Richard Helm, Ralph Johnson, and John Vlissides.
 
 Their book, "**Design Patterns: Elements of Reusable Object-Oriented Software**" is a seminal work in the field. 
 
